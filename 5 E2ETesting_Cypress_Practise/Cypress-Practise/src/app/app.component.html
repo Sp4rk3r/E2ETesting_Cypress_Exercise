@@ -1,0 +1,16 @@
+<div class="page">
+  <div id="navbar">
+    <button [routerLink]="['/todos']" routerLinkActive="router-link-active">
+      Todos
+    </button>
+    <button [routerLink]="['/bmi']" routerLinkActive="router-link-active">
+      BMI
+    </button>
+    <button [routerLink]="['/currency']" routerLinkActive="router-link-active">
+      Currency Converter
+    </button>
+  </div>
+  <div id="main">
+    <router-outlet></router-outlet>
+  </div>
+</div>

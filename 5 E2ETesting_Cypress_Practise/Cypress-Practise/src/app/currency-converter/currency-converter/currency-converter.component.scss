@@ -1,0 +1,44 @@
+.currency-converter {
+  form {
+    margin-bottom: 1em;
+    div {
+      margin-bottom: 1em;
+    }
+
+    .div-curr {
+      display: grid;
+      grid-template-columns: 8rem 6rem;
+    }
+
+    label {
+      width: 8rem;
+    }
+    select {
+      width: 4rem;
+      margin-left: 3rem;
+      border-radius: 0.5rem;
+    }
+
+    input {
+      width: 6.5rem;
+      height: 1rem;
+      background-color: whitesmoke;
+      border-radius: 0.5rem;
+      padding-left: 0.5rem;
+    }
+  }
+  button {
+    margin-top: 1em;
+    cursor: pointer;
+    background-color: #4d4d4d;
+    color: white;
+    width: 8rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
+}

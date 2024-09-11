@@ -1,0 +1,8 @@
+<div class="user-list">
+  <h2>User List</h2>
+  <ul>
+    @for (user of users; track $index) {
+    <li>{{ user.name }} (Age: {{ user.age }})</li>
+    }
+  </ul>
+</div>
